@@ -18,7 +18,7 @@ struct Response: Decodable {
         
     }
     
-    init (from decoder:Decoder) throws {
+    init (from decoder: Decoder) throws {
         
       let contianer = try decoder.container(keyedBy: CodingKeys.self)
         
